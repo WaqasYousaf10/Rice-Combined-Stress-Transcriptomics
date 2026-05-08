@@ -1,0 +1,40 @@
+# Configuration file for Rice Combined Stress Transcriptomics Pipeline
+
+project:
+  name: "Rice Combined Stress Transcriptomics"
+  author: "Waqas Yousaf"
+  year: 2026
+  institution: "Scuola Superiore Sant'Anna, Pisa, Italy"
+
+pipeline:
+  threads: 8
+  min_read_length: 36
+  log2fc_threshold: 1
+  padj_threshold: 0.05
+
+genotypes:
+  - "IR64"
+  - "IR64-Sub1"
+  - "FR13A"
+  - "Swarna"
+  - "Swarna-Sub1"
+
+treatments:
+  - "Control"
+  - "IronDeficiency"
+  - "Submergence"
+  - "Combined"
+
+key_genes:
+  fe_uptake:
+    - "OsIRT1"
+    - "OsYSL15"
+    - "OsIDS2"
+    - "OsNAS1"
+  erfvii:
+    - "SUB1A-1"
+    - "OsRAP2.2"
+    - "OsRAP2.3"
+  fermentative:
+    - "OsADH1"
+    - "OsPDC1"
