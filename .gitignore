@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+
+# Large data files
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+
+# Results
+results/
+*.png
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
